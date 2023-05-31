@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/knightproject" mode="merge"/>
+    <filter root="/content/knightproject" mode="merge"/>
+    <filter root="/content/dam/knightproject" mode="merge">
+        <exclude pattern="/content/dam/knightproject(/.*)?"/>
+        <include pattern="/content/dam/knightproject/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/knightproject/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/knightproject" mode="merge"/>
+</workspaceFilter>
